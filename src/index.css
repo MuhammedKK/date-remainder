@@ -6,19 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
-}
-
-.color-body {
-  height:100vh;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
   background-color:#F8F8F8;
-  
 }
 .font {
   font-size:20px;
 }
 
 .rect {
-  height:600px;
+  height:500px;
   border-radius:15px;
   background-color:#fff;
   box-shadow:4px 4px 4px 4px rgba(85,85,85,0.25);
@@ -27,7 +25,7 @@ body {
 .dates-count {
   color:#555;
   font-weight:600;
-  margin-bottom:20px;
+  /* margin-bottom:20px; */
 }
 .btn-style {
   width:200px;
